@@ -20,7 +20,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -225,13 +225,152 @@
           </div>
         </div>
       </div>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/FabianSegurondo/curso_bootstrap_web_dev.git" target="_blank" rel="noopener noreferrer">
         <button type="button" class="btn btn-info">
-          Ver más proyectos
+          See more projects
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
       </a>
     </section>
+
+    <!-- Articles -->
+    <section class="articles justify-content-start">
+      <h2 class="section-title text-black">Articles</h2>
+      <div class="card">
+        <div class="card-header">
+          Recently
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              This are my articles...I need to create more content tho 1
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              This are my articles...I need to create more content tho 2
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              This are my articles...I need to create more content tho 3
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              This are my articles...I need to create more content tho 4
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              This are my articles...I need to create more content tho 5
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Check more articles
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <!-- Testimonies -->
+    <section id="testimonies" class="testimonies section-clear">
+      <h2 class="section-title">Testimonies</h2>
+      <h3 class="section-description">These are my clients testimonies...</h3>
+      
+      <!-- Carousel -->
+      <div id="testimonies-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimony-image rounded-circle" src="images/client1.svg" alt="Edu Picture">
+              <p class="testimony-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimony-info">
+                <p class="client">Edu</p>
+                <p class="position">TeamLead</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimony-image rounded-circle" src="images/client2.svg" alt="Ariel picture">
+              <p class="testimony-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimony-info">
+                <p class="client">Ariel</p>
+                <p class="position">DevServices Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimony-image rounded-circle" src="images/client3.svg" alt="Chelito picture">
+              <p class="testimony-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimony-info">
+                <p class="client">Chelito</p>
+                <p class="position">Senior dev engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonies-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonies-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section-dark">
+      <div class="container">
+        <div class="container text-center rectangle d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 section-title">
+              ¡Lets talk!
+            </div>
+            <div class="col-12 col-md-4 description">
+              Call me and surely I'll develop your project
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:fabosegurondo@gmail.com">
+                <button type="button">  
+                  Contact
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section-dark d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="images/icon-footer.svg" alt="Portfolio logo">
+      <p class="footer-text text-center">Daily improvement<br>Build sum together</p>
+      <div class="icons-social-media d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/FabianSegurondo/curso_bootstrap_web_dev.git" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:fabosegurondo@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="author-copyrights">Build by Fabo Segurondo (2k23) &#169;</div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
